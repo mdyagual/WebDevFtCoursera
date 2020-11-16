@@ -7,41 +7,53 @@ h1{
 }
 
 h2{
-    text-align: center;
-    width: 25%;
+    text-align: center;       
+}
+
+.chicken,.beef,.sushi{
+    background-color: red;
+    border-style: solid;
+    border-color: black;
+    width: 50%;
+    margin-left: 52%;
+    
     
 }
 
-div{
-    width: 75%;
+
+.first,.second,.third{
+    width: 90%;
     border-style: solid;
     border-color: black;
     background-color: gray;
-
+    
     padding: 10px;
-    margin: 0px;
+    margin-top: 50px;
 }
 
 .m1{
     color: black;
-    background-color: coral;
+    /*background-color: coral;
     border-style: solid;
-    border-color: black;
+    border-color: black;*/
     
 }
 
 .m2{
     color: white;
-    background-color: coral;
+    
+    /*background-color: coral;
     border-style: solid;
-    border-color: black;
+    border-color: black;*/
+    
 }
 
 .m3{
     color: burlywood;
+    /*
     background-color: yellow;
     border-style: solid;
-    border-color: black;
+    border-color: black;*/
 }
 
 
@@ -51,5 +63,6 @@ div{
     border-style: none;
     display: grid;
     grid-template-columns:  1fr 1fr 1fr;
+    align-content: center;
 }
 
