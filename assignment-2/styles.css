@@ -1,0 +1,55 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    width: 25%;
+    
+}
+
+div{
+    width: 25%;
+    border-style: solid;
+    border-color: black;
+    background-color: gray;
+}
+
+.m1{
+    color: black;
+    background-color: coral;
+    border-style: solid;
+    border-color: black;
+}
+
+.m2{
+    color: white;
+    background-color: coral;
+    border-style: solid;
+    border-color: black;
+}
+
+.m3{
+    color: burlywood;
+    background-color: yellow;
+    border-style: solid;
+    border-color: black;
+}
+
+
+
+.first{
+    float: left;
+}
+
+
+.second{
+    float: right;
+}
+
+.third{
+    float: right;
+}
