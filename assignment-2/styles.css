@@ -1,5 +1,6 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
 }
 h1{
     text-align: center;
@@ -12,10 +13,13 @@ h2{
 }
 
 div{
-    width: 25%;
+    width: 75%;
     border-style: solid;
     border-color: black;
     background-color: gray;
+
+    padding: 10px;
+    margin: 0px;
 }
 
 .m1{
@@ -23,6 +27,7 @@ div{
     background-color: coral;
     border-style: solid;
     border-color: black;
+    
 }
 
 .m2{
@@ -40,16 +45,11 @@ div{
 }
 
 
-
-.first{
-    float: left;
+.main{
+    width: auto;
+    background-color: white;
+    border-style: none;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
 }
 
-
-.second{
-    float: right;
-}
-
-.third{
-    float: right;
-}
