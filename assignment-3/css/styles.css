@@ -1,0 +1,106 @@
+body {
+    font-size: 16px;
+    /*color: rgb(53, 51, 51);*/
+    background-color: #ffff;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+    background-color: #6e6e6c;
+    border-radius: 0;
+    border: 0;
+}
+#header-nav2{
+    background-color: #ffff;
+    border-radius: 0;
+    border: 0;
+
+   
+}
+#header-nav3{
+    background-color: #c0c0c0;
+    border: 0;
+       
+    
+}
+.navbar-brand {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #111111;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand2 /*To center h2*/
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}
+
+.navbar-brand2  h2 { /* Our Menu*/
+    font-family: 'Lora', serif;
+    color: #111111;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand2  h3 { /* Chicken*/
+    font-family: 'Lora', serif;
+    color: #111111;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.container .jumbotron {
+    background-color: #C0C0C0;
+    
+  }
+/*La lista del menu*/
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color: #111111;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #070707;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
